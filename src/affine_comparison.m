@@ -1,3 +1,5 @@
+% Comparison between trajectory-based and displacement-based affine calibration
+% Performanced compared based on the classification accuracy across 3 classifiers on population level
 clc;
 clear;
 close all;
