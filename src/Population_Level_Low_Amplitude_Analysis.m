@@ -2,6 +2,8 @@
 %  Population Spatial Classification (S1–S10)
 %  3 classifiers: Skewed, Quadrant, 8-Class
 %  Displacement-based affine per subject
+% This file contain confusion matrices and spatial plots for 
+% both the low-amplitude filtered and unfiltered. 
 % =========================================================
 
 clc
