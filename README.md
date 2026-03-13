@@ -56,7 +56,13 @@ This project uses a publicly available electrooculography dataset - dataset 2 fr
 Dataset source:
 [https://www.um.edu.mt/cbc/ourprojects/eyecon/eogdataset/]
 
-The dataset is not included in this repository. Please download it from the original source and place it in the `data/` directory before running the analysis.
+The dataset is not included in this repository. Please download it from the original source.
+
+## Author
+
+Letian Xie  
+University of Melbourne  
+Biomedical Engineering
 
 ## Citation
 
