@@ -74,7 +74,7 @@ EOG-Based Gaze Direction Classification Using Affine Calibration.
 Zenodo. DOI: 10.5281/zenodo.18994964
 
 Available at:
-https://github.com/SterneSehen/EOG-Affine-Calibration
+[https://github.com/Letian-Xie/EOG-Affine-Calibration]
 
 ## License
 
