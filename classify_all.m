@@ -1,5 +1,3 @@
-src/classify_all.m
-
 function [card, quad, dir8] = classify_all(dx, dy)
 
 % Cardinal (dominant axis)
