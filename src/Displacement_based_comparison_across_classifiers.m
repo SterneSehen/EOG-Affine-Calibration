@@ -1,3 +1,5 @@
+% Compare the performance of displacement based affine calibration across 10 subjects
+
 clc;
 clear;
 close all;
