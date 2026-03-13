@@ -59,6 +59,43 @@ Dataset source:
 
 The dataset is not included in this repository. Please download it from the original source.
 
+## Running the Code
+
+### 1. Download the Dataset
+
+### 2. Update Dataset Path
+
+Open the main MATLAB scripts and update the dataset directory path to match the location where you saved the dataset.
+### 3. Run the Analysis Pipeline
+
+The project code is located in the `src/` directory.
+
+Typical workflow:
+
+1. Preprocess the EOG signals  
+2. Apply affine calibration (trajectory-based or displacement-based)  
+3. Perform direction classification  
+4. Generate visualizations and statistical analysis
+
+Run the relevant MATLAB scripts in the `src/` folder to reproduce the analyses.
+
+### 4. Example Outputs
+
+The scripts generate outputs including:
+
+- confusion matrices for direction classification
+- spatial endpoint plots with sectional accuracy 
+- statistical comparisons between calibration methods
+- statistical comparison between classifers 
+- additional analysis such as filtering low-amplitude saccades
+
+These results correspond to the analyses presented in the project report.
+
+### Notes
+
+- The dataset itself is not included in this repository due to licensing restrictions.
+- Ensure MATLAB and required toolboxes are installed before running the scripts.
+  
 ## Author
 
 Letian Xie  
