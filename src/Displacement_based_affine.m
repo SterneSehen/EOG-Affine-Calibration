@@ -19,7 +19,14 @@ for subj = 1:num_subjects
     fprintf('\nProcessing Subject %d...\n', subj);
 
     % -------- Load subject data --------
-    folder = sprintf('C:\\Users\\xiele\\Documents\\SCIE30001\\data set from Uni Malta\\S%d', subj);
+    % The dataset used in this project is provided by the University of Malta.
+    % It is not included in this repository.
+    %
+    % Please download the dataset from the official source listed in the README.
+    % After downloading, update the folder path below to match the location of
+    % the dataset on your local machine.
+    
+    folder = sprintf('PATH_TO_DATASET/S%d', subj);
     load(fullfile(folder,'EOG.mat'));
     load(fullfile(folder,'ControlSignal.mat'));
     load(fullfile(folder,'Target_GA_stream.mat'));
